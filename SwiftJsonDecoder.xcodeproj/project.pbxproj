@@ -13,6 +13,10 @@
 		D93A4AD92770BB5500143E45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93A4AD72770BB5500143E45 /* Main.storyboard */; };
 		D93A4ADB2770BB5700143E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93A4ADA2770BB5700143E45 /* Assets.xcassets */; };
 		D93A4ADE2770BB5700143E45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93A4ADC2770BB5700143E45 /* LaunchScreen.storyboard */; };
+		D93A4AE92770BB9D00143E45 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = D93A4AE52770BB9300143E45 /* Data.json */; };
+		D93A4AEA2770BB9D00143E45 /* MDHCustomDiseaseCategeoryData.json in Resources */ = {isa = PBXBuildFile; fileRef = D93A4AE62770BB9900143E45 /* MDHCustomDiseaseCategeoryData.json */; };
+		D93A4AEB2770BB9D00143E45 /* DemoDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A4AE72770BB9B00143E45 /* DemoDataModel.swift */; };
+		D93A4AEC2770BB9D00143E45 /* MDHCustomDiseaseCategeoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A4AE82770BB9D00143E45 /* MDHCustomDiseaseCategeoryModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		D93A4ADA2770BB5700143E45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D93A4ADD2770BB5700143E45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D93A4ADF2770BB5700143E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D93A4AE52770BB9300143E45 /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		D93A4AE62770BB9900143E45 /* MDHCustomDiseaseCategeoryData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MDHCustomDiseaseCategeoryData.json; sourceTree = "<group>"; };
+		D93A4AE72770BB9B00143E45 /* DemoDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoDataModel.swift; sourceTree = "<group>"; };
+		D93A4AE82770BB9D00143E45 /* MDHCustomDiseaseCategeoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDHCustomDiseaseCategeoryModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				D93A4AD12770BB5500143E45 /* AppDelegate.swift */,
 				D93A4AD32770BB5500143E45 /* SceneDelegate.swift */,
 				D93A4AD52770BB5500143E45 /* ViewController.swift */,
+				D93A4AE52770BB9300143E45 /* Data.json */,
+				D93A4AE72770BB9B00143E45 /* DemoDataModel.swift */,
+				D93A4AE62770BB9900143E45 /* MDHCustomDiseaseCategeoryData.json */,
+				D93A4AE82770BB9D00143E45 /* MDHCustomDiseaseCategeoryModel.swift */,
 				D93A4AD72770BB5500143E45 /* Main.storyboard */,
 				D93A4ADA2770BB5700143E45 /* Assets.xcassets */,
 				D93A4ADC2770BB5700143E45 /* LaunchScreen.storyboard */,
@@ -126,8 +138,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D93A4ADE2770BB5700143E45 /* LaunchScreen.storyboard in Resources */,
+				D93A4AEA2770BB9D00143E45 /* MDHCustomDiseaseCategeoryData.json in Resources */,
 				D93A4ADB2770BB5700143E45 /* Assets.xcassets in Resources */,
 				D93A4AD92770BB5500143E45 /* Main.storyboard in Resources */,
+				D93A4AE92770BB9D00143E45 /* Data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D93A4AD62770BB5500143E45 /* ViewController.swift in Sources */,
+				D93A4AEC2770BB9D00143E45 /* MDHCustomDiseaseCategeoryModel.swift in Sources */,
 				D93A4AD22770BB5500143E45 /* AppDelegate.swift in Sources */,
+				D93A4AEB2770BB9D00143E45 /* DemoDataModel.swift in Sources */,
 				D93A4AD42770BB5500143E45 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
